@@ -1,29 +1,29 @@
 export default function IronAgeUI() {
   const products = [
     {
-      name: "RockShox Boxxer",
-      price: "₾1200",
+      name: "Вилка hassns",
+      price: "₾300",
       image:
-        "https://images.unsplash.com/photo-1511994298241-608e28f14fde?q=80&w=1200&auto=format&fit=crop",
+        "https://avatars.mds.yandex.net/get-mpic/5234464/2a000001922168e26f1ddfab187a65784fd9/orig",
     },
     {
-      name: "BMX Wheel Set",
-      price: "₾450",
+      name: "руль carbon 400mm",
+      price: "₾200",
       image:
-        "https://images.unsplash.com/photo-1507035895480-2b3156c31fc8?q=80&w=1200&auto=format&fit=crop",
+        "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTC4JokqeFxNBYkzfv2lWBDe9ApRA3a8QXDqVU1nJ_M6mfsSTXIMHshC1JfWc4_Uda40s0yRfvWMR29tldtGTqDRek1l7sP0zIDdR4aXWgwxD6S0kCRsUAfWCz0KLVaI-VM9TvFYre7og&usqp=CAc",
     },
     {
-      name: "Hydraulic Brakes",
-      price: "₾320",
+      name: "Shimano Mt520 brakes",
+      price: "₾300",
       image:
-        "https://images.unsplash.com/photo-1541625602330-2277a4c46182?q=80&w=1200&auto=format&fit=crop",
+        "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTSu2o7gZgk2OG2AAAxyIg8CkiVPFsVT3476zLDL2qBRgqKn_0R6AVb6kDgbtCEUMhISJkfkcd-GuclQ_i7HoA0OeQhulHAxagYxiM1kjNVGvbAqc2TgExIQ0hYpUkMccogsDundAxGpA&usqp=CAc",
     },
   ];
 
   const services = [
     {
       title: "Переборка вилки",
-      price: "от ₾80",
+      price: "от ₾60",
     },
     {
       title: "Полное ТО",
@@ -31,7 +31,7 @@ export default function IronAgeUI() {
     },
     {
       title: "Прокачка тормозов",
-      price: "от ₾40",
+      price: "от ₾15",
     },
   ];
 
@@ -60,7 +60,7 @@ export default function IronAgeUI() {
             <div className="flex flex-col gap-5 md:flex-row md:items-center md:justify-between">
               <div>
                 <p className="text-zinc-500 uppercase text-xs tracking-[0.3em]">
-                  Dark Bike Shop
+                  Bike Shop
                 </p>
                 <h2 className="mt-3 text-3xl font-bold leading-tight">
                   Премиальный сервис

@@ -21,11 +21,11 @@ function App() {
   // --- ШАГ 6: Подключение Telegram WebApp ---
   useEffect(() => {
     if (window.Telegram && window.Telegram.WebApp) {
-      const tg = window.Telegram.WebApp
+      const tg = window.Telegram.WebApp;
       tg.ready() // Сообщаем Telegram, что приложение загрузилось
       tg.expand() // Разворачиваем на весь экран смартфона
     }
-  }, [])
+  }, []);
 
 
   // --- Пример списка товаров для вашего магазина ---
